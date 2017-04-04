@@ -42,12 +42,12 @@ public void setBalance(long balance){
 public long deposit(long amount){
 	long ba = this.balance + amount;
 	this.balance =ba;
-	System.out.println(amount+"ÀÔ±İÈ®ÀÎ\n ³²Àºµ·: "+ (int)ba);
+	System.out.println(amount+"ì…ê¸ˆí™•ì¸\n ë‚¨ì€ëˆ: "+ (int)ba);
 	return ba;
 }
 public long withdrow(long amount){
 	long ba = this.balance - amount;
-	System.out.println(amount + "Ãâ±İÈ®ÀÎ\n ³²Àºµ·: "+ (int)ba);
+	System.out.println(amount + "ì¶œê¸ˆí™•ì¸\n ë‚¨ì€ëˆ: "+ (int)ba);
 	this.balance = ba;
 	return ba;
 }
