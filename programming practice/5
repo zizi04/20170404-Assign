@@ -16,7 +16,7 @@ public class SalaryMan {
 	}
 	
 	public static void main(String[] args){
-		System.out.println("±âº»±Ş 100¸¸¿ø ¿¬ºÀ : " + new SalaryMan().getAnnualGross());
-		System.out.println("±âº»±Ş 200¸¸¿ø ¿¬ºÀ : " + new SalaryMan(2000000).getAnnualGross());
+		System.out.println("ê¸°ë³¸ê¸‰ 100ë§Œì› ì—°ë´‰ : " + new SalaryMan().getAnnualGross());
+		System.out.println("ê¸°ë³¸ê¸‰ 200ë§Œì› ì—°ë´‰ : " + new SalaryMan(2000000).getAnnualGross());
 	}
 }
