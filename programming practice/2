@@ -23,9 +23,9 @@ public class Student {
 
     public static void main(String[] args) {
         Student s = new Student();
-        s.setMajor("ÄÄÇ»ÅÍÁ¤º¸°øÇÐ°ú");
+        s.setMajor("ì»´í“¨í„°ì •ë³´ê³µí•™ê³¼");
         s.setNum(20164116);
 
-        System.out.println("ÇÐ¹ø: " + s.getNum() + ", ÇÐ°ú: " + s.getMajor());
+        System.out.println("í•™ë²ˆ: " + s.getNum() + ", í•™ê³¼: " + s.getMajor());
     }
 }
